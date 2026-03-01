@@ -327,7 +327,7 @@
 
 @media (max-width: 480px) {
   .menu-contact {
-    margin-bottom: calc(45px + env(safe-area-inset-bottom));
+margin-bottom: calc(90px + env(safe-area-inset-bottom));
   }
 }
 
