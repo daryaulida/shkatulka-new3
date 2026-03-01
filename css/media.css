@@ -19,7 +19,7 @@
     height: 22px;
   }
   .menu-content {
-    padding: 60px 20px 36px;
+  padding: 60px 20px 108px !important;
   }
   .menu-col a,
   .menu-links a {
@@ -325,7 +325,11 @@
   }
 }
 
-
+@media (max-width: 480px) {
+  .menu-contact {
+    margin-bottom: calc(45px + env(safe-area-inset-bottom));
+  }
+}
 
 @media (max-width: 767.98px) {
   .collections {
