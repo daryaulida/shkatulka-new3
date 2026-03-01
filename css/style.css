@@ -259,7 +259,7 @@ button {
 }
 
 .menu-content {
-  padding: 68px 16px 32px;
+  padding: 68px 16px calc(32px + env(safe-area-inset-bottom));
 }
 
 .menu-tabs {
