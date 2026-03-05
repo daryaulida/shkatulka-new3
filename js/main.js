@@ -96,7 +96,7 @@ if (patternsSlider && typeof Swiper !== "undefined") {
     },
 
     breakpoints: {
-      481: { slidesPerView: 2 }, // строго как reviews
+      481: { slidesPerView: 2 }, 
     },
   });
 }
