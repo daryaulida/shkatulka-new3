@@ -1158,4 +1158,14 @@
     grid-template-columns: 1fr !important;
   }
 
+  .about-brand__content .btn,
+  .about-brand__content button,
+  .about-brand__content .about-brand__cta,
+  .about-brand__content .about-brand__btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
